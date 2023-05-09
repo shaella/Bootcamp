@@ -1,0 +1,18 @@
+//variable
+public bool fruits;
+public bool flowers;
+
+//method
+public void flower()
+    {
+        Console.WriteLine("yes");
+    }
+
+    public void fruit()
+    {
+        Console.WriteLine("yes");
+    }
+
+//run
+   Console.WriteLine(mango.flower);
+        Console.WriteLine(mango.fruit);
