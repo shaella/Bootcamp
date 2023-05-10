@@ -3,10 +3,10 @@
 {
 	//variable
 	public string? name;
-	public int harvestaftersowing;
+	public int? harvestaftersowing;
 	public string? harvestingmonth;
 	public string? floweringmonth;
-	public int maturingfruits;
+	public int? maturingfruits;
 
 	public void Watered()
 	{
