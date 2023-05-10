@@ -1,5 +1,9 @@
-﻿Console.WriteLine(Console.ReadLine()+Console.ReadLine());
+﻿//kode Console.WriteLine(Console.ReadLine()+Console.ReadLine());
 
-a = int.Parse(Console.ReadLine());
-b = int.Parse(Console.ReadLine());
-Console.WriteLine(a+b);
+//kode int a = int.Parse(Console.ReadLine());
+//kode int b = int.Parse(Console.ReadLine());
+//kode Console.WriteLine(a+b);
+
+Console.ReadKey();
+Console.ReadKey();
+Console.ReadKey();
