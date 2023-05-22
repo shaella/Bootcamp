@@ -1,0 +1,15 @@
+c:\Bootcamp\exercise2\obj\Debug\net7.0\exercise2.csproj.AssemblyReference.cache
+c:\Bootcamp\exercise2\obj\Debug\net7.0\exercise2.GeneratedMSBuildEditorConfig.editorconfig
+c:\Bootcamp\exercise2\obj\Debug\net7.0\exercise2.AssemblyInfoInputs.cache
+c:\Bootcamp\exercise2\obj\Debug\net7.0\exercise2.AssemblyInfo.cs
+c:\Bootcamp\exercise2\obj\Debug\net7.0\exercise2.csproj.CoreCompileInputs.cache
+c:\Bootcamp\exercise2\bin\Debug\net7.0\exercise2.exe
+c:\Bootcamp\exercise2\bin\Debug\net7.0\exercise2.deps.json
+c:\Bootcamp\exercise2\bin\Debug\net7.0\exercise2.runtimeconfig.json
+c:\Bootcamp\exercise2\bin\Debug\net7.0\exercise2.dll
+c:\Bootcamp\exercise2\bin\Debug\net7.0\exercise2.pdb
+c:\Bootcamp\exercise2\obj\Debug\net7.0\exercise2.dll
+c:\Bootcamp\exercise2\obj\Debug\net7.0\refint\exercise2.dll
+c:\Bootcamp\exercise2\obj\Debug\net7.0\exercise2.pdb
+c:\Bootcamp\exercise2\obj\Debug\net7.0\exercise2.genruntimeconfig.cache
+c:\Bootcamp\exercise2\obj\Debug\net7.0\ref\exercise2.dll
