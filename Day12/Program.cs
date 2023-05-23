@@ -20,5 +20,12 @@ class ProgramDice
 		Dice plastic = new Dice(6,"small");
 		int[] special = {0,2,4,6,8,10};
 		Console.WriteLine($"The numbers written on plastic dice are {special[0]}, {special[1]}, {special[2]}, {special[3]}, {special[4]}, and {special[5]}");
+		int specialdice = 12;
+		dynamic sd = specialdice;
+		Console.WriteLine($"There are dices who have {sd} sides");
+		int availabledices = 100;
+		object obj = availabledices;
+		int newobj = (int)obj;
+		Console.WriteLine($"We have {newobj} dices to sell");
 	}
 }
