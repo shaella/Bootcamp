@@ -10,6 +10,40 @@
 	}
 }
 
+class Home 
+{
+	public int members;
+	public string who;
+	public string type;
+	public string gender;
+	public int age;
+	public string occupation;
+	
+	public void Eating()
+	{
+		Console.WriteLine("All members do need to eat");
+	}
+	public void Sleeping() 
+	{
+		Console.WriteLine("All members do need to sleep");
+	}
+	public void Activities()
+	{
+		Console.WriteLine("All members have their own activities");
+	} 
+	public void GrowingUp(int newage)
+	{
+		age = newage;
+	}
+	public Home(string a, string b, string c, int d, string e) 
+	{
+		who = a;
+		type = c;
+		gender = b;
+		age = d;
+		occupation = e;
+	}
+}
 class ProgramDice
 {
 	static void Main() 
@@ -27,5 +61,5 @@ class ProgramDice
 		object obj = availabledices;
 		int newobj = (int)obj;
 		Console.WriteLine($"We have {newobj} dices to sell");
-	}
+		}
 }
