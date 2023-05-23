@@ -1,0 +1,15 @@
+c:\Bootcamp\Day12\obj\Debug\net7.0\Day12.csproj.AssemblyReference.cache
+c:\Bootcamp\Day12\obj\Debug\net7.0\Day12.GeneratedMSBuildEditorConfig.editorconfig
+c:\Bootcamp\Day12\obj\Debug\net7.0\Day12.AssemblyInfoInputs.cache
+c:\Bootcamp\Day12\obj\Debug\net7.0\Day12.AssemblyInfo.cs
+c:\Bootcamp\Day12\obj\Debug\net7.0\Day12.csproj.CoreCompileInputs.cache
+c:\Bootcamp\Day12\bin\Debug\net7.0\Day12.exe
+c:\Bootcamp\Day12\bin\Debug\net7.0\Day12.deps.json
+c:\Bootcamp\Day12\bin\Debug\net7.0\Day12.runtimeconfig.json
+c:\Bootcamp\Day12\bin\Debug\net7.0\Day12.dll
+c:\Bootcamp\Day12\bin\Debug\net7.0\Day12.pdb
+c:\Bootcamp\Day12\obj\Debug\net7.0\Day12.dll
+c:\Bootcamp\Day12\obj\Debug\net7.0\refint\Day12.dll
+c:\Bootcamp\Day12\obj\Debug\net7.0\Day12.pdb
+c:\Bootcamp\Day12\obj\Debug\net7.0\Day12.genruntimeconfig.cache
+c:\Bootcamp\Day12\obj\Debug\net7.0\ref\Day12.dll
