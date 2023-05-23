@@ -2,6 +2,28 @@
 DOT NET TUTORIALS, C#, C#.NET Basics, Type Casting in C#
 https://dotnettutorials.net/lesson/type-casting-in-csharp/
 
+
 * Tuple
 DOT NET TUTORIALS, C#, C#.7x new Features, Tuples in C#
 https://dotnettutorials.net/lesson/tuples-csharp/
+
+
+* Struct
+C#Corner, BLOGS, Difference Between Struct And Class In C#
+https://www.c-sharpcorner.com/Blogs/difference-between-struct-and-class-in-c-sharp
+
+// code example:
+struct Location   
+{  
+    publicint x, y;  
+    publicLocation(int x, int y)  
+    {  
+        this.x = x;  
+        this.y = y;  
+    }  
+}  
+Locationa = new Location(20, 20);  
+Locationb = a;  
+a.x = 100;  
+System.Console.WriteLine(b.x)  
+;  
