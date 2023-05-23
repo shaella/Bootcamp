@@ -27,3 +27,7 @@ Locationb = a;
 a.x = 100;  
 System.Console.WriteLine(b.x)  
 ;  
+
+* Stack, Heap, Value Type, And Reference
+C#Corner, BLOGS, Difference Between Struct And Class In C#
+https://www.c-sharpcorner.com/article/stack-heap-value-type-and-reference-type-in-c-sharp/
