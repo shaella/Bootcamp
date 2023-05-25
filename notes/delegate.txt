@@ -1,0 +1,30 @@
+public delegate void Example(int whatever);
+
+Example del1 = new Example(ReceiveExample)
+
+del1(10);
+
+public void ReceiveExample(int receiveWhatever) {}
+
+
+
+//Seminar exampdelegate2 = new Seminar("Pentingnya Hari Buruh", Friday, 5, 1000000);
+
+
+public delegate void AutomaticShutdown(string message);
+
+Program obj = new Program();
+AutomaticShutdown exampdelegate2 = new AutomaticShutdown(obj.receivAutomaticSD);
+DoSomework(exampdelegate2);
+
+Console.ReadKey();
+
+public static void DoSomework(AutomaticShutdown del)
+{
+Console.WriteLine("Loading...");
+del("The computer will be automatically turned off at 9:00 PM");
+
+
+public void receivAutomaticSD(string themessage)
+{
+Console.WriteLine($"WARNING: {themessage}. Please finish and/or save your works.");

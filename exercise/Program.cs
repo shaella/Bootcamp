@@ -8,50 +8,32 @@
 //Console.ReadKey();
 //Console.ReadKey();
 
-public delegate void ResultCallback(int result);
+//public struct Point 
+//{
+//	public int X {get; set; }
+//	public int Y {get; set; }
+	
+//	public Point(int x, int y) 
+//	{
+//		X = x;
+//		Y = Y;
+//	}
+	
+//	public static Point operator + (Point p1, Point p2) 
+//	{
+//		return new Point(p1.X + p2.X, p1.Y + p2.Y);
+//	}
+//}
 
-public class Number 
-{
-	public int number;
-	public ResultCallback resultCallback;
-	
-	public Number(int numberx, ResultCallback resultCallbackx) 
-	{
-		number = numberx;
-		resultCallback = resultCallbackx;
-	}
-	
-	public void Sum() 
-	{
-		int result = 0;
-		for (int i=1;i<=number;i++) 
-		{
-			result = result + i;
-		}
-		
-		if(resultCallback != null) 
-		{
-			resultCallback(result);
-		}
-	}
-}
-
-class MainProgram
-{
-	static void Main() 
-	{
-		ResultCallback myResultCallback = new ResultCallback(resultCallbackMethod);
-		int number = 10;
-		
-		Number obj = new Number(number, myResultCallback);
-		
-		Thread t1 = new Thread(new ThreadStart(obj.Sum));
-		t1.Start();
-		Console.Read();
-	}
-	
-	public static void resultCallbackMethod(int result) 
-	{
-		Console.WriteLine("The Result is "+ result);
-	}
-}
+//class Program 
+//{
+//	static void Main() 
+//	{
+//		Point p1 = new Point(1,2);
+//		Point p2 = new Point(3,4);
+//		
+//		Point p3 = p1 + p2;
+//		
+//		Console.WriteLine(p1,p2,p3);
+//	}
+//}
