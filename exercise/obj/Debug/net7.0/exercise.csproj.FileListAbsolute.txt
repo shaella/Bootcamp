@@ -3,13 +3,3 @@ c:\Bootcamp\exercise\obj\Debug\net7.0\exercise.GeneratedMSBuildEditorConfig.edit
 c:\Bootcamp\exercise\obj\Debug\net7.0\exercise.AssemblyInfoInputs.cache
 c:\Bootcamp\exercise\obj\Debug\net7.0\exercise.AssemblyInfo.cs
 c:\Bootcamp\exercise\obj\Debug\net7.0\exercise.csproj.CoreCompileInputs.cache
-c:\Bootcamp\exercise\bin\Debug\net7.0\exercise.exe
-c:\Bootcamp\exercise\bin\Debug\net7.0\exercise.deps.json
-c:\Bootcamp\exercise\bin\Debug\net7.0\exercise.runtimeconfig.json
-c:\Bootcamp\exercise\bin\Debug\net7.0\exercise.dll
-c:\Bootcamp\exercise\bin\Debug\net7.0\exercise.pdb
-c:\Bootcamp\exercise\obj\Debug\net7.0\exercise.dll
-c:\Bootcamp\exercise\obj\Debug\net7.0\refint\exercise.dll
-c:\Bootcamp\exercise\obj\Debug\net7.0\exercise.pdb
-c:\Bootcamp\exercise\obj\Debug\net7.0\exercise.genruntimeconfig.cache
-c:\Bootcamp\exercise\obj\Debug\net7.0\ref\exercise.dll

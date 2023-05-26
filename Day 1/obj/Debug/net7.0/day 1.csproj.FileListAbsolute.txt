@@ -1,0 +1,15 @@
+c:\Bootcamp\day 1\bin\Debug\net7.0\day 1.exe
+c:\Bootcamp\day 1\bin\Debug\net7.0\day 1.deps.json
+c:\Bootcamp\day 1\bin\Debug\net7.0\day 1.runtimeconfig.json
+c:\Bootcamp\day 1\bin\Debug\net7.0\day 1.dll
+c:\Bootcamp\day 1\bin\Debug\net7.0\day 1.pdb
+c:\Bootcamp\day 1\obj\Debug\net7.0\day 1.csproj.AssemblyReference.cache
+c:\Bootcamp\day 1\obj\Debug\net7.0\day 1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Bootcamp\day 1\obj\Debug\net7.0\day 1.AssemblyInfoInputs.cache
+c:\Bootcamp\day 1\obj\Debug\net7.0\day 1.AssemblyInfo.cs
+c:\Bootcamp\day 1\obj\Debug\net7.0\day 1.csproj.CoreCompileInputs.cache
+c:\Bootcamp\day 1\obj\Debug\net7.0\day 1.dll
+c:\Bootcamp\day 1\obj\Debug\net7.0\refint\day 1.dll
+c:\Bootcamp\day 1\obj\Debug\net7.0\day 1.pdb
+c:\Bootcamp\day 1\obj\Debug\net7.0\day 1.genruntimeconfig.cache
+c:\Bootcamp\day 1\obj\Debug\net7.0\ref\day 1.dll
