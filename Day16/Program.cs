@@ -1,6 +1,4 @@
-﻿// CHECK: Array (OK), Dictionary (OK), ArrayList:Clone, CopyTo (OK)
-//Array Class
-
+﻿
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Concurrent;
@@ -69,16 +67,16 @@ namespace ShArrayDemo
 				Console.WriteLine(element);
 			}
 			arrayhewan.Sort();
-			arrayhewan.Insert(7, "punya tanduk");
+			arrayhewan.Insert(6, "punya tanduk");
 			foreach(var element1 in arrayhewan) 
 			{
-				Console.WriteLine(element);
+				Console.WriteLine(element1);
 			}
 			
 			ArrayList arrayhewanclone = (ArrayList)arrayhewan.Clone();
 			ArrayList arrayhewanclone2 = arrayhewanclone;
 			
-			string newarrayhewan = new string[arrayhewanclone.Count];
+			string[] newarrayhewan = new string[arrayhewanclone.Count];
 			arrayhewanclone.CopyTo(newarrayhewan);
 			foreach(var element2 in newarrayhewan) 
 			{
@@ -104,4 +102,4 @@ class Hewan
 
 //string[] myArray = { "kambing", "anjing", "domba" };
 //foreach (int val in myArray)
-//    Cons.Write
+// .....
