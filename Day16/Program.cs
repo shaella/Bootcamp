@@ -54,6 +54,8 @@ namespace ShArrayDemo
 				Console.WriteLine($"Key:{KVP.Key}, Value: {KVP.Value}");
 			}
 			
+			
+			//ArrayList
 			ArrayList arrayhewan = new ArrayList();
 			arrayhewan.Add("punya kaki");
 			arrayhewan.Add("tidak punya kaki");
@@ -61,6 +63,13 @@ namespace ShArrayDemo
 			arrayhewan.Add("tidak punya telinga");
 			arrayhewan.Add("punya sayap");
 			arrayhewan.Add("tidak punya sayap");
+			
+			ArrayList arraynum = new ArrayList();
+			arraynum.Add(101);
+			arraynum.Add(201);
+			arraynum.Add(301);
+			
+			int newarraynum = (int)arraynum[0];
 			
 			foreach(var element in arrayhewan) 
 			{
