@@ -1,6 +1,6 @@
 * Implicit and Explicit Casting:
 DOT NET TUTORIALS, C#, C#.NET Basics, Type Casting in C#
-https://dotnettutorials.net/lesson/type-casting-in-csharp/
+https://dotnettutorials.net/lesson/type-casting-in-csharp/  [READ]
 
 
 * Tuple
@@ -10,7 +10,7 @@ https://dotnettutorials.net/lesson/tuples-csharp/
 
 * Struct
 C#Corner, BLOGS, Difference Between Struct And Class In C#
-https://www.c-sharpcorner.com/Blogs/difference-between-struct-and-class-in-c-sharp
+https://www.c-sharpcorner.com/Blogs/difference-between-struct-and-class-in-c-sharp  [READ]
 
 // code example:
 struct Location   
