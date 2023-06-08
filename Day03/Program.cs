@@ -7,7 +7,7 @@
 	public string? harvestingmonth;
 	public string? floweringmonth;
 	public int? maturingfruits;
-	private string? fertilizer;
+	private string? _fertilizer;
 	
 	//constructor
 	public Tree(string a, string b, string c, int d, int e) 
@@ -29,11 +29,11 @@
 	}
 }
 
-static class Plant : Tree
+class Program
 {
 	static void Main()
 	{
-		Plant mango = new Plant();
+		Tree mango = new Tree("Mango", "April-May", "October-November", 6, 150);
 		mango.Watered();
 		mango.Grow();
 		mango.name = "Mango";

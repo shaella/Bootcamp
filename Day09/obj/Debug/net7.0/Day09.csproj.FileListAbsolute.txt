@@ -1,0 +1,15 @@
+C:\Bootcamp\Day09\obj\Debug\net7.0\Day09.csproj.AssemblyReference.cache
+C:\Bootcamp\Day09\obj\Debug\net7.0\Day09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Day09\obj\Debug\net7.0\Day09.AssemblyInfoInputs.cache
+C:\Bootcamp\Day09\obj\Debug\net7.0\Day09.AssemblyInfo.cs
+C:\Bootcamp\Day09\obj\Debug\net7.0\Day09.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Day09\bin\Debug\net7.0\Day09.exe
+C:\Bootcamp\Day09\bin\Debug\net7.0\Day09.deps.json
+C:\Bootcamp\Day09\bin\Debug\net7.0\Day09.runtimeconfig.json
+C:\Bootcamp\Day09\bin\Debug\net7.0\Day09.dll
+C:\Bootcamp\Day09\bin\Debug\net7.0\Day09.pdb
+C:\Bootcamp\Day09\obj\Debug\net7.0\Day09.dll
+C:\Bootcamp\Day09\obj\Debug\net7.0\refint\Day09.dll
+C:\Bootcamp\Day09\obj\Debug\net7.0\Day09.pdb
+C:\Bootcamp\Day09\obj\Debug\net7.0\Day09.genruntimeconfig.cache
+C:\Bootcamp\Day09\obj\Debug\net7.0\ref\Day09.dll

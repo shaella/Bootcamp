@@ -20,7 +20,7 @@ namespace hsembilan
 				int nomor = 30;
 			}
 			waktu.Stop();
-			Console.WriteLine($"untuk menghitung {nomor} sampai ke-30, komputer ini membutuhkan waktu {waktu.ElapsedMilliseconds} milidetik");
+			Console.WriteLine($"untuk menghitung nomor sampai ke-30, komputer ini membutuhkan waktu {waktu.ElapsedMilliseconds} milidetik");
 			TimeSpan durasi = waktu.Elapsed;
 			Console.WriteLine(durasi); 
 			
