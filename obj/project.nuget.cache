@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "/EcaNqmnbXQMqci1BnKC0ZfIZ1x2YWJrx9XAQAkpu+9abiau7XEmQ2UNtNMfkkr5LarcHQ9y7vVK1hjxHK16ZA==",
+  "dgSpecHash": "gui5OyMuY7lbEaRIDyn2HMCBloeOFybZYPUopnjGnaSP2AV/HZhm8yCzCN26Vtk07StdNN4x6/j2BIRhZphD+Q==",
   "success": true,
   "projectFilePath": "C:\\Bootcamp\\Bootcamp.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Batch 2\\.nuget\\packages\\spell.check\\4.0.3.2\\spell.check.4.0.3.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Spell.Check 4.0.3.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Spell.Check",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

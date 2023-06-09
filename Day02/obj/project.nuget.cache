@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DAONcuSDFzTpi2kcKkWz+wYMzlERUiS8s4x/qFcB7pwjRr4jawQ28BEXs+/7wMmWq1CrlTa5E1GP6CQh1WlGxA==",
+  "dgSpecHash": "Cp3NVQUuNifP7nSBZw+TzBDPVho9QtTc+2IiShjy1bKOZpS6/t749Svzzjaw8ND2zyCpqBPa22jEGK3Mf4JUsg==",
   "success": true,
-  "projectFilePath": "c:\\Bootcamp\\Tree\\Day2.csproj",
+  "projectFilePath": "c:\\Bootcamp\\Day02\\Day02.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

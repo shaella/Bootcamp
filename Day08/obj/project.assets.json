@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Bootcamp\\Day14\\Day14.csproj",
-      "projectName": "Day14",
-      "projectPath": "C:\\Bootcamp\\Day14\\Day14.csproj",
+      "projectUniqueName": "c:\\Bootcamp\\Day08\\Day08.csproj",
+      "projectName": "Day08",
+      "projectPath": "c:\\Bootcamp\\Day08\\Day08.csproj",
       "packagesPath": "C:\\Users\\Batch 2\\.nuget\\packages\\",
-      "outputPath": "C:\\Bootcamp\\Day14\\obj\\",
+      "outputPath": "c:\\Bootcamp\\Day08\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Batch 2\\AppData\\Roaming\\NuGet\\NuGet.Config"

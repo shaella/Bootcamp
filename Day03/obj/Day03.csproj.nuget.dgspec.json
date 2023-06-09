@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Bootcamp\\Day03\\Day03.csproj": {}
+    "c:\\Bootcamp\\Day03\\Day03.csproj": {}
   },
   "projects": {
-    "C:\\Bootcamp\\Day03\\Day03.csproj": {
+    "c:\\Bootcamp\\Day03\\Day03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Bootcamp\\Day03\\Day03.csproj",
+        "projectUniqueName": "c:\\Bootcamp\\Day03\\Day03.csproj",
         "projectName": "Day03",
-        "projectPath": "C:\\Bootcamp\\Day03\\Day03.csproj",
+        "projectPath": "c:\\Bootcamp\\Day03\\Day03.csproj",
         "packagesPath": "C:\\Users\\Batch 2\\.nuget\\packages\\",
-        "outputPath": "C:\\Bootcamp\\Day03\\obj\\",
+        "outputPath": "c:\\Bootcamp\\Day03\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 2\\AppData\\Roaming\\NuGet\\NuGet.Config"

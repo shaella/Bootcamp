@@ -1,11 +1,134 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Spell.Check/4.0.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/ASPNetSpell.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ASPNetSpell.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Spell.Check/4.0.3.2": {
+      "sha512": "DWNbjCCvNEK5MVS2DKIOSu5Mz5Fif5WRBBU0fAtJXQpMXgDwq6qxAKeXMXiQB50OOnmj8TDNcSEGveNQdKPQEg==",
+      "type": "package",
+      "path": "spell.check/4.0.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/ASPNetSpellInclude/core/Default.aspx",
+        "content/ASPNetSpellInclude/core/default.ashx",
+        "content/ASPNetSpellInclude/core/dialog.js",
+        "content/ASPNetSpellInclude/debugging-test-scripts/Hello-World.aspx",
+        "content/ASPNetSpellInclude/debugging-test-scripts/Test-Instalation.ashx",
+        "content/ASPNetSpellInclude/debugging-test-scripts/Test-Server-Ajax.aspx",
+        "content/ASPNetSpellInclude/debugging-test-scripts/support.txt",
+        "content/ASPNetSpellInclude/dialog.html",
+        "content/ASPNetSpellInclude/dictionaries/English (International).dic",
+        "content/ASPNetSpellInclude/dictionaries/README.txt",
+        "content/ASPNetSpellInclude/dictionaries/custom.txt",
+        "content/ASPNetSpellInclude/dictionaries/language-rules/banned-words.txt",
+        "content/ASPNetSpellInclude/dictionaries/language-rules/common-mistakes.txt",
+        "content/ASPNetSpellInclude/dictionaries/language-rules/enforced-corrections.txt",
+        "content/ASPNetSpellInclude/include.js",
+        "content/ASPNetSpellInclude/license.txt",
+        "content/ASPNetSpellInclude/support.txt",
+        "content/ASPNetSpellInclude/themes/bright/ajax-loader.gif",
+        "content/ASPNetSpellInclude/themes/bright/context-menu.css",
+        "content/ASPNetSpellInclude/themes/bright/dialog-window.css",
+        "content/ASPNetSpellInclude/themes/bright/ieonly.css",
+        "content/ASPNetSpellInclude/themes/buttons/spellicon.gif",
+        "content/ASPNetSpellInclude/themes/buttons/spelliconover.gif",
+        "content/ASPNetSpellInclude/themes/classic/ajax-loader.gif",
+        "content/ASPNetSpellInclude/themes/classic/context-menu.css",
+        "content/ASPNetSpellInclude/themes/classic/dialog-window.css",
+        "content/ASPNetSpellInclude/themes/classic/gwiggle.png",
+        "content/ASPNetSpellInclude/themes/classic/ieonly.css",
+        "content/ASPNetSpellInclude/themes/classic/wiggle.png",
+        "content/ASPNetSpellInclude/themes/clean/ajax-loader.gif",
+        "content/ASPNetSpellInclude/themes/clean/context-menu.css",
+        "content/ASPNetSpellInclude/themes/clean/dialog-window.css",
+        "content/ASPNetSpellInclude/themes/clean/gwiggle.png",
+        "content/ASPNetSpellInclude/themes/clean/ieonly.css",
+        "content/ASPNetSpellInclude/themes/clean/wiggle.png",
+        "content/ASPNetSpellInclude/themes/modern/ajax-loader.gif",
+        "content/ASPNetSpellInclude/themes/modern/context-menu.css",
+        "content/ASPNetSpellInclude/themes/modern/dialog-window.css",
+        "content/ASPNetSpellInclude/themes/modern/gwiggle.png",
+        "content/ASPNetSpellInclude/themes/modern/ieonly.css",
+        "content/ASPNetSpellInclude/themes/modern/wiggle.png",
+        "content/ASPNetSpellInclude/themes/modern/xp.gif",
+        "content/ASPNetSpellInclude/translations/af.js",
+        "content/ASPNetSpellInclude/translations/ar.js",
+        "content/ASPNetSpellInclude/translations/be.js",
+        "content/ASPNetSpellInclude/translations/bg.js",
+        "content/ASPNetSpellInclude/translations/ca.js",
+        "content/ASPNetSpellInclude/translations/cn.js",
+        "content/ASPNetSpellInclude/translations/cs.js",
+        "content/ASPNetSpellInclude/translations/cy.js",
+        "content/ASPNetSpellInclude/translations/da.js",
+        "content/ASPNetSpellInclude/translations/de.js",
+        "content/ASPNetSpellInclude/translations/el.js",
+        "content/ASPNetSpellInclude/translations/en.js",
+        "content/ASPNetSpellInclude/translations/es.js",
+        "content/ASPNetSpellInclude/translations/et.js",
+        "content/ASPNetSpellInclude/translations/fa.js",
+        "content/ASPNetSpellInclude/translations/fi.js",
+        "content/ASPNetSpellInclude/translations/fr.js",
+        "content/ASPNetSpellInclude/translations/ga.js",
+        "content/ASPNetSpellInclude/translations/gl.js",
+        "content/ASPNetSpellInclude/translations/hi.js",
+        "content/ASPNetSpellInclude/translations/hr.js",
+        "content/ASPNetSpellInclude/translations/hu.js",
+        "content/ASPNetSpellInclude/translations/id.js",
+        "content/ASPNetSpellInclude/translations/is.js",
+        "content/ASPNetSpellInclude/translations/it.js",
+        "content/ASPNetSpellInclude/translations/iw.js",
+        "content/ASPNetSpellInclude/translations/ja.js",
+        "content/ASPNetSpellInclude/translations/ko.js",
+        "content/ASPNetSpellInclude/translations/lt.js",
+        "content/ASPNetSpellInclude/translations/lv.js",
+        "content/ASPNetSpellInclude/translations/mk.js",
+        "content/ASPNetSpellInclude/translations/ms.js",
+        "content/ASPNetSpellInclude/translations/mt.js",
+        "content/ASPNetSpellInclude/translations/nl.js",
+        "content/ASPNetSpellInclude/translations/no.js",
+        "content/ASPNetSpellInclude/translations/pl.js",
+        "content/ASPNetSpellInclude/translations/pt.js",
+        "content/ASPNetSpellInclude/translations/ro.js",
+        "content/ASPNetSpellInclude/translations/ru.js",
+        "content/ASPNetSpellInclude/translations/simple.js",
+        "content/ASPNetSpellInclude/translations/sk.js",
+        "content/ASPNetSpellInclude/translations/sl.js",
+        "content/ASPNetSpellInclude/translations/sq.js",
+        "content/ASPNetSpellInclude/translations/sr.js",
+        "content/ASPNetSpellInclude/translations/sw.js",
+        "content/ASPNetSpellInclude/translations/template.js",
+        "content/ASPNetSpellInclude/translations/th.js",
+        "content/ASPNetSpellInclude/translations/tl.js",
+        "content/ASPNetSpellInclude/translations/tr.js",
+        "content/ASPNetSpellInclude/translations/tw.js",
+        "content/ASPNetSpellInclude/translations/uk.js",
+        "content/ASPNetSpellInclude/translations/vi.js",
+        "content/ASPNetSpellInclude/translations/yi.js",
+        "content/ASPNetSpellInclude/web.config",
+        "lib/net20/ASPNetSpell.dll",
+        "lib/net35/ASPNetSpell.dll",
+        "lib/net40/ASPNetSpell.dll",
+        "spell.check.4.0.3.2.nupkg.sha512",
+        "spell.check.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Spell.Check >= 4.0.3.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Batch 2\\.nuget\\packages\\": {}
@@ -43,6 +166,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Spell.Check": {
+            "target": "Package",
+            "version": "[4.0.3.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -62,5 +191,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Spell.Check 4.0.3.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Spell.Check",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

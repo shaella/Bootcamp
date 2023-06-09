@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Spell.Check" Version="4.0.3.2" />
-  </ItemGroup>
-
 </Project>
