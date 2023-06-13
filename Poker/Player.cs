@@ -1,9 +1,24 @@
-public class Player
+public class Player : IPlayer
 {
-	private int ID;
-	private	string name;
-	private int level;
-	private int chips;
-}
+	private int _ID;
+	private	string _name;
+	private int _chips;
+	public int ID
+	{
+		set
+		{
+			_ID = id;
+		}
+		get
+		{
+			return _ID;
+		}
+	}
+	public string name
+	{
+		set
+		{
+			
+
 
 
