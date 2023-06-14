@@ -1,19 +1,45 @@
-using
-public class Rule
-{
-	public bool IsRoyalFlush() 
-	{
-		switch (IsRoyalFlush)
-		
-	}
-	public bool IsStraightFlush() {}
-	public bool IsFourofaKind() {}
-	public bool IsFullHouse() {}
-	public bool IsFlush() {}
-	public bool IsStraight() {}
-	public bool IsThreeofaKind() {}
-	public bool IsTwoPair() {}
-	public bool IsPair() {}
-	public bool IsHighCard() {}
+using CardLib;
+using CardSuitLib;
+using CardRankLib;
 
+namespace RuleLib
+{
+	public class Rule
+	{
+		string result;
+		public void ObtainResult()
+		{
+			switch (result) 
+			{
+				case "straightflush":
+				result = "straightflush";
+				break;
+				case "fourofakind":
+				result = "fourofakind";
+				break;
+				case "fullhouse":
+				result = "fullhouse";
+				break;
+				case "flush":
+				result = "flush";
+				break;
+				case "staright":
+				result = "straight";
+				break;
+				case "threeofakind":
+				result = "threeofakind";
+				break;
+				case "twopairs":
+				result = "twopairs";
+				break;
+				case "onepair":
+				result = "onepair";
+				break;
+				default:
+				result = "nopair";
+				break;
+			}	
+		}
 	}
+}
+

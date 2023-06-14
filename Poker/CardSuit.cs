@@ -1,4 +1,4 @@
-namespace CardSuit
+namespace CardSuitLib
 {
 	public enum CardSuit
 	{

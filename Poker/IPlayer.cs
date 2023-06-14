@@ -1,9 +1,10 @@
-namespace IPlayer
+namespace IPlayerLib
 {
 	public interface IPlayer
 	{
-		public int GetID() {}
-		public void SetID() {}
-		public string GetName() {}
-		public void SetName() {}
+		void GetID() {}
+		void SetID() {}
+		void GetName() {}
+		void SetName() {}
 	}
+}

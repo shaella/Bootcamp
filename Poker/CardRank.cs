@@ -1,4 +1,4 @@
-namespace CardRank
+namespace CardRankLib
 {
 	public enum CardRank : int
 	{

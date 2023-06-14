@@ -1,3 +1,5 @@
+using IPlayerLib;
+namespace PlayerLib
 public class Player : IPlayer
 {
 	private int _ID;
@@ -15,28 +17,27 @@ public class Player : IPlayer
 		}
 	}
 	public string name
-        {
-                set
-                {
-                        _name = name;
-                }
-                get
-                {
-                        return _name;
-                }
-        }
+	{
+		set
+		{
+			_name = name;
+		}
+		get
+		{
+			return _name;
+		}
+	}
 	public int chips
-        {
-                set
-                {
-                        _chips = chips;
-                }
-                get
-                {
-                        return _chips;
-                }
-        }
+	{
+		set
+		{
+			_chips = chips;
+		}
+		get
+		{
+			return _chips;
+		}
+	}
+	
+	
 }
-
-
-

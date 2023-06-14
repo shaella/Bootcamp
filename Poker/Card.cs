@@ -1,27 +1,60 @@
-public class Card
-{
-	private CardSuit _Suit;
-	private CardRank _Rank;
-	public CardSuit Suit
+using System.Collections.Generic;
+using System.Linq;
+using CardRankLib;
+using CardSuitLib;
+
+namespace CardLib
+ {
+	public class Card
 	{
-		set
+		private CardSuit _Suit;
+		private CardRank _Rank;
+		public CardSuit Suit
 		{
-			_Suit = value;
+			set
+			{
+				_Suit = Suit;
+			}
+			get
+			{
+				return _Suit;
+			}
 		}
-		get
+		public CardRank Rank
 		{
-			return _Suit;
+			set
+			{
+				_Rank = Rank;
+			}
+			get
+			{
+				return _Rank;
+			}
 		}
-	}
-	public CardRank Rank
-	{
-		set
+		
+		public void GetCards() 
 		{
-			_Rank = value;
-		}
-		get
-		{
-			return _Rank;
-		}
+			
+			//Dictionary<CardSuit, CardRank> Cards = new Dictionary<CardSuit, CardRank> 
+		//	List<CardRank> clubs = new List<CardRank>
+		//	{
+		//		{
+		//			CardRank.Two,
+		//			CardRank.Three,
+ 		//			CardRank.Four,
+		//			CardRank.Five,
+		//			CardRank.Six,
+		//			CardRank.Seven,
+		//			CardRank.Eight,
+		//			CardRank.Nine,
+		//			CardRank.Ten,
+		//			CardRank.Jack,
+		//			CardRank.Queen,
+		//			CardRank.King,
+		//			CardRank.Ace
+		//		};
+		} 
 	}
 }
+
+
