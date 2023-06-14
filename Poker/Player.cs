@@ -15,10 +15,28 @@ public class Player : IPlayer
 		}
 	}
 	public string name
-	{
-		set
-		{
-			
+        {
+                set
+                {
+                        _name = name;
+                }
+                get
+                {
+                        return _name;
+                }
+        }
+	public int chips
+        {
+                set
+                {
+                        _chips = chips;
+                }
+                get
+                {
+                        return _chips;
+                }
+        }
+}
 
 
 
