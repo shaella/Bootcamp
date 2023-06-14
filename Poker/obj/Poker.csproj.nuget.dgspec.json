@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Bootcamp\\Poker\\Poker.csproj": {}
+    "C:\\Bootcamp\\Poker\\Poker.csproj": {}
   },
   "projects": {
-    "c:\\Bootcamp\\Poker\\Poker.csproj": {
+    "C:\\Bootcamp\\Poker\\Poker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Bootcamp\\Poker\\Poker.csproj",
+        "projectUniqueName": "C:\\Bootcamp\\Poker\\Poker.csproj",
         "projectName": "Poker",
-        "projectPath": "c:\\Bootcamp\\Poker\\Poker.csproj",
+        "projectPath": "C:\\Bootcamp\\Poker\\Poker.csproj",
         "packagesPath": "C:\\Users\\Batch 2\\.nuget\\packages\\",
-        "outputPath": "c:\\Bootcamp\\Poker\\obj\\",
+        "outputPath": "C:\\Bootcamp\\Poker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 2\\AppData\\Roaming\\NuGet\\NuGet.Config"

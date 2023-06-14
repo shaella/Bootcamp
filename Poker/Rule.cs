@@ -1,6 +1,11 @@
+using
 public class Rule
 {
-	public bool IsRoyalFlush() {}
+	public bool IsRoyalFlush() 
+	{
+		switch (IsRoyalFlush)
+		
+	}
 	public bool IsStraightFlush() {}
 	public bool IsFourofaKind() {}
 	public bool IsFullHouse() {}

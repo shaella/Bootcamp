@@ -23,11 +23,11 @@
 			Console.WriteLine(file);
 		}
 		
-		using (FileStream filestream = new FileStream(eee, FileAccess.Read)) 
-		{
-			byte[] buffer = new byte[filestream.Length]; //f s.Length is the size of the file
-            filestream.Read(buffer, 0, buffer.Length); //buffer, offset, count
-            string content = System.Text.Encoding.UTF8.GetString(buffer);
-		} 
+//		using (FileStream filestream = new FileStream(eee, FileAccess.Read)) 
+//		{
+//			byte[] buffer = new byte[filestream.Length]; //f s.Length is the size of the file
+//           filestream.Read(buffer, 0, buffer.Length); //buffer, offset, count
+//            string content = System.Text.Encoding.UTF8.GetString(buffer);
+//		} 
 	}
 }
