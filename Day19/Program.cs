@@ -10,7 +10,8 @@ namespace NineteenTask
 			Task task = new Task(TugasDua);
 			//Thread mt = new Thread(Tugas);
 			task.Start();
-			task.Wait();
+			//task.Wait(); //blocking the current thread
+			await task;
 			await Tugas();
 		}
 		public static async Task Tugas()
@@ -19,7 +20,7 @@ namespace NineteenTask
 			string bha = "everybody";
 			for (int i = 0; i < 20; i++)
 			{
-				await Task.Delay(TimeSpan.FromSeconds(10));
+				await Task.Delay(TimeSpan.FromSeconds(10)); //Dont use Thread.Sleep(1000);
 				Console.WriteLine(aha + " " + bha);
 				Console.WriteLine("Printing just ended ...");
 			}
