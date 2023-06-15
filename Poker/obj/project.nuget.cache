@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kJq6nLyBSB1+wLD4RDHsq2pPOnZ0E5HdXBLOyFLN8zH1keKGTgj79xR6cdWe27V64NZwcAdzC7tYjk7MO1oP/g==",
+  "dgSpecHash": "gTbAMqRKUIWwCnULMnuR2X5VErV5aZWUbhuA+cUNuvVaDrPytqSr58p5VQGLXwec3QsjWZKLNDQSTBFImRF4bw==",
   "success": true,
-  "projectFilePath": "C:\\Bootcamp\\Poker\\Poker.csproj",
+  "projectFilePath": "c:\\Bootcamp\\Poker\\Poker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Batch 2\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\Batch 2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",

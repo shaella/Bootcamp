@@ -15,5 +15,7 @@ namespace GameControllerLib
 		private List<communityCards> _communityCards;
 		private List<Card> _deck;
 		private Rule _rules;
+		
+		
 	}
 }

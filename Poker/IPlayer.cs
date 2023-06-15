@@ -2,11 +2,11 @@ namespace IPlayerLib
 {
 	public interface IPlayer
 	{
-		void GetID()
-		void SetID(int ID)
-		void GetName()
-		void SetName(string name)
-		void GetChips()
-		void SetChips(int chips)
+		int GetID();
+		void SetID(int ID);
+		string GetName();
+		void SetName(string name);
+		int GetChips();
+		void SetChips(int chips);
 	}
 }
