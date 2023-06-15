@@ -6,16 +6,29 @@ using CardSuitLib;
 using RuleLib;
 using ScoreLib;
 
-namespace GameControllerLib
+namespace GameControllerLib 
 {
-	class GameController
+	class GameController 
 	{
-		private List<Player> _players;
-		private Dictionary<IPlayer, List<holeCard>> __playersCards;
-		private List<communityCards> _communityCards;
-		private List<Card> _deck;
-		private Rule _rules;
-		
-		
+		public bool Bet() 
+		{
+			
+		}
+		public bool Fold() 
+		{
+			
+		}
+		public bool Check() 
+		{
+			
+		}
+		public bool Call() 
+		{
+			
+		}
+		public bool Raise() 
+		{
+			
+		}
 	}
 }
