@@ -34,25 +34,6 @@ namespace CardLib
 		
 		public void GetCards() 
 		{
-			
-			//Dictionary<CardSuit, CardRank> Cards = new Dictionary<CardSuit, CardRank> 
-		//	List<CardRank> clubs = new List<CardRank>
-		//	{
-		//		{
-		//			CardRank.Two,
-		//			CardRank.Three,
- 		//			CardRank.Four,
-		//			CardRank.Five,
-		//			CardRank.Six,
-		//			CardRank.Seven,
-		//			CardRank.Eight,
-		//			CardRank.Nine,
-		//			CardRank.Ten,
-		//			CardRank.Jack,
-		//			CardRank.Queen,
-		//			CardRank.King,
-		//			CardRank.Ace
-		//		};
 		} 
 	}
 }
