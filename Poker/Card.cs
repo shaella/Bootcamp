@@ -7,34 +7,24 @@ namespace CardLib
  {
 	public class Card
 	{
-		private CardSuit _Suit;
-		private CardRank _Rank;
-		public CardSuit Suit
+		private CardSuit _suit;
+		private CardRank _rank;
+		public CardSuit GetCardSuit() 
 		{
-			set
-			{
-				_Suit = Suit;
-			}
-			get
-			{
-				return _Suit;
-			}
+			return _suit;
 		}
-		public CardRank Rank
+		public CardRank GetCardRank()
 		{
-			set
-			{
-				_Rank = Rank;
-			}
-			get
-			{
-				return _Rank;
-			}
+			return _rank;
 		}
-		
-		public void GetCards() 
+		public void SetCardSuit(CardSuit suit)
 		{
-		} 
+			_suit = suit;
+		}
+		public void SetCardRank(CardRank rank)
+		{
+			_rank = rank;
+		}
 	}
 }
 

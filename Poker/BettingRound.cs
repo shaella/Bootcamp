@@ -1,0 +1,60 @@
+using GameControllerLib;
+using IPlayerLib;
+using PlayerLib;
+
+namespace BettingRoundLib
+{
+	public class BettingRound
+	{
+		public char bet;
+		public bool bets;
+		
+		public char StartBetting()
+		{
+			Console.Write(", Choose your option: [F]old, [C]all, [R]aise: ");
+			char bet = Char.ToUpper(Convert.ToChar(Console.ReadLine()));
+            		switch (bet)
+            		{
+                		case 'F':
+                    		Console.WriteLine("You have taken 'Fold' option.");
+                    		break;
+                		case 'C':
+                    		Console.WriteLine("You have taken 'Call' option.");
+                    		break;
+                		case 'R':
+                    		Console.WriteLine("You have taken 'Raise' option.");
+                    		break;
+                		default:
+                    		Console.WriteLine(" ");
+                    		break;
+            		}
+			return bet;
+			bets = Convert.ToBoolean(bet);
+
+			if (bets) 
+			{
+				Console.Write("Please enter the amount that you want to bet: ");
+				//GameController.allchips += Convert.ToInt32(Console.ReadLine());
+			}
+
+			Console.ReadLine();
+		}
+
+		public void StartPreFlop()
+                {
+                        Console.WriteLine("Pre-Flop betting round begins ... Please choose your action: ");
+                }
+                public void StartFlop()
+                {
+                        Console.WriteLine("Flop betting round begins ... Please choose your action: ");
+                }
+                public void StartTurn()
+                {
+                        Console.WriteLine("Turn round begins ... Please choose your action: ");
+                }
+                public void StartRiver()
+                {
+                        Console.WriteLine("River betting round begins ... Please choose your action: ");
+		}
+	}
+}

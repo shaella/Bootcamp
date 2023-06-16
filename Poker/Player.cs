@@ -3,10 +3,10 @@ namespace PlayerLib
 {
 	public class Player : IPlayer
 	{
-		private int _ID;
+		private string _ID;
 		private string _name;
 		private int _chips;
-		public int GetID()
+		public string GetID()
 		{
 			return _ID;
 		}
@@ -20,13 +20,13 @@ namespace PlayerLib
 		}
 		public void SetChips(int chips)
 		{
-			_chips = _chips;		
+			_chips = chips;		
 		}
 		public void SetName(string name) 
 		{
 			_name = name;
 		}
-		public void SetID(int ID) 
+		public void SetID(string ID) 
 		{
 			_ID = ID;
 		}
