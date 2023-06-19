@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kJq6nLyBSB1+wLD4RDHsq2pPOnZ0E5HdXBLOyFLN8zH1keKGTgj79xR6cdWe27V64NZwcAdzC7tYjk7MO1oP/g==",
+  "dgSpecHash": "TzbN/OwEOcDk9rj/YeNA37FginlLbKZ/6mPNGbrPDuXg4mDRvcuqvfWqBjNUbjtkNtowu9J4iN+DdTIaVhi9Ow==",
   "success": true,
-  "projectFilePath": "C:\\Bootcamp\\Poker\\Poker.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Batch 2\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\Batch 2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\Batch 2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\Batch 2\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/tanshaella/Documents/FMLX-LearnC#/Bootcamp/Poker/Poker.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

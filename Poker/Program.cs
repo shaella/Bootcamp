@@ -2,6 +2,7 @@
 using GameControllerLib;
 using BettingRoundLib;
 using PlayerLib;
+using CardBankLib;
 using CardLib;
 using CardSuitLib;
 using CardRankLib;
@@ -55,10 +56,9 @@ namespace Program
 			Console.WriteLine($"The collected chips from all players is {gamecontroller.allchips}");
 			Console.ReadLine();
 			
-			gamecontroller.DealHoleCards();
-
-			Console.WriteLine($"Burning one card . . .");
-			Console.ReadLine();
+			CardBank dealer = new CardBank();
+			dealer.DealHoleCards();
+			dealer.BurnOneCard();
 
 			BettingRound preflop = new BettingRound();
 			preflop.StartBetting();
@@ -66,7 +66,7 @@ namespace Program
 			preflop.StartBetting();
 			Console.ReadLine();
 
-			gamecontroller.DealCommunityCards();
+			dealer.DealCommunityCards();
 
 			BettingRound flop = new BettingRound();
 			flop.StartBetting();
@@ -74,7 +74,7 @@ namespace Program
 			flop.StartBetting();
 			Console.ReadLine();
 
-			gamecontroller.DealTurnCard();
+			dealer.DealTurnCard();
 
 			BettingRound turn = new BettingRound();
 			turn.StartBetting();
@@ -82,7 +82,7 @@ namespace Program
 			turn.StartBetting();
 			Console.ReadLine();
 
-			gamecontroller.DealRiverCard();
+			dealer.DealRiverCard();
 
 			BettingRound river = new BettingRound();
 			river.StartBetting();
