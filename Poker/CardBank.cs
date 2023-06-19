@@ -9,10 +9,6 @@ namespace CardBankLib
 {
 	public class CardBank
 	{
-		public List<IPlayer> players;
-                public Dictionary<IPlayer, List<Card>> holeCards;
-                public List<Card> tableCards;
-
 		public void BurnOneCard()
                 {
                         Console.WriteLine($"Burning one card . . .");

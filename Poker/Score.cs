@@ -1,18 +1,18 @@
-using System.Collections.Generic;
+ using System.Collections.Generic;
 
 namespace ScoreLib
 {
-	public enum Score : int
+	public enum Score
 	{
-		NoPair = 0,
-		OnePair = 26,
-		TwoPairs = 52,
-		ThreeOfAKind = 39,
-		Straight = 65,
-		Flush = 100,
-		FullHouse = 63,
-		FourOfAKind = 152,
-		StraightFlush = 155
+		NoPair,
+		OnePair,
+		TwoPairs,
+		ThreeOfAKind,
+		Straight,
+		Flush,
+		FullHouse,
+		FourOfAKind,
+		StraightFlush
 	}
 }
 
