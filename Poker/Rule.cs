@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using CardLib;
 using CardSuitLib;
 using CardRankLib;
@@ -9,8 +11,9 @@ namespace RuleLib
 		public bool IsStraightFlush()
 		{
 		}
-		public bool IsFourOfAKind()
+		public int IsFourOfAKind(List<Card> cards)
 		{
+			var groups = cards.GroupBy(card => new {card.CardRank, card.CardSuit });
 		}
 		public bool IsFullHouse() 
 		{
@@ -24,11 +27,11 @@ namespace RuleLib
 		{
 			
 		}
-		public bool ThreeOfAKind() 
+		public int IsThreeOfAKind(List<Card> cards) 
 		{
-			
+			var groups = cards.GroupBy(card => new {card.CardRank, card.CardSuit });
 		}
-		public bool TwoPairs()
+		public bool IsTwoPairs()
 		{
 			
 		}

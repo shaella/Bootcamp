@@ -18,17 +18,41 @@ namespace PlayerLib
 		{
 			return _chips;
 		}
-		public void SetChips(int chips)
+		public bool SetChips(int chips)
 		{
-			_chips = chips;		
+			if(chips > 0)
+			{
+				_chips = chips;
+				return true;
+			}
+			else
+			{
+				return false;
+			}		
 		}
-		public void SetName(string name) 
+		public bool SetName(string name) 
 		{
-			_name = name;
+			if(name.Length >= 1)
+			{
+				_name = name;
+				return true;
+			}
+			else
+			{
+				return false;
+			}
 		}
-		public void SetID(string ID) 
+		public bool SetID(string ID) 
 		{
-			_ID = ID;
+			if(ID.Length >= 1)
+			{
+				_ID = ID;
+				return true;
+			}
+			else
+			{
+				return false;
+			}
 		}
 	}
 }

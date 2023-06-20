@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using CardLib;
 using CardSuitLib;
 using CardRankLib;
+using GameController;
 using IPlayerLib;
 using PlayerLib;
 
@@ -9,6 +10,7 @@ namespace CardBankLib
 {
 	public class CardBank
 	{
+		public void GenerateDeck() {}
 		public void BurnOneCard()
                 {
                         Console.WriteLine($"Burning one card . . .");
