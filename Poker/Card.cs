@@ -7,8 +7,13 @@ namespace CardLib
 {
 	public class Card
 	{
-		public CardSuit suit;
-		public CardRank rank;
+		private string _cardname;
+		private CardSuit _suit;
+		private CardRank _rank;
+		public string GetCardName()
+		{
+			return _cardname;
+		}
 		public CardSuit GetCardSuit() 
 		{
 			return _suit;
@@ -16,6 +21,10 @@ namespace CardLib
 		public CardRank GetCardRank()
 		{
 			return _rank;
+		}
+		public void SetCardName(string cardname)
+		{
+			_cardname = cardname
 		}
 		public void SetCardSuit(CardSuit suit)
 		{
@@ -25,22 +34,6 @@ namespace CardLib
 		{
 			_rank = rank;
 		}
-//		public void GetCardSuit()
-//                {
-//			Random randomsuit = new Random();
-//                        Type typesuit = typeof(CardSuit);
-//                        Array valuessuit = typesuit.GetEnumValues();
-//                        int index = randomsuit.Next(valuessuit.Length);
-//                        CardSuit suit = (CardSuit)valuessuit.GetValue(index);
-//                }
-//                public void GetCardRank()
-//                {
-//                        Random randomrank = new Random();
-//                        Type typerank = typeof(CardRank);
-//                        Array valuesrank = typerank.GetEnumValues();
-//                        int index = randomrank.Next(valuesrank.Length);
-//                        CardRank rank = (CardRank)valuesrank.GetValue(index);
-//                }
 	}
 }
 
