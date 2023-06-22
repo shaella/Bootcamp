@@ -1,11 +1,12 @@
 using IPlayerLib;
 using PlayerLib;
+using CardBankLib;
 using CardLib;
 using CardRankLib;
 using CardSuitLib;
 using RuleLib;
 using ScoreLib;
-
+ 
 namespace GameControllerLib
 {
 	class GameController
@@ -27,7 +28,7 @@ namespace GameControllerLib
 		}
 
 		public bool SetInputNumberOfPlayers(int numberOfPlayers)
-		{
+		{  
 			if (numberOfPlayers >= 2 && numberOfPlayers <= 6)
 			{
 				return true;

@@ -94,10 +94,8 @@ namespace Program
 			}
 			}
 
-			
 			CardBank dealer = new CardBank();
 			dealer.DealHoleCards();
-//			dealer.BurnOneCard();
 
 			BettingRound preflop = new BettingRound();
 			preflop.StartBetting();

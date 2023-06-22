@@ -10,31 +10,26 @@ namespace CardBankLib
 {
 	public class CardBank
 	{
-	//	public List<Card> GenerateCard() 
-	//	{
-	//		Random randomSuit = new Random();
-	//		Array valuesSuit = Enum.GetValues(typeof(CardSuit));
-	//		for(int i = 0; i < 10; i++)
-	//		{
-	//			int indexSuit = randomSuit.Next(valuesSuit.Length);
-	//			CardSuit valuesuit = (CardSuit)valuesSuit.GetValue(indexSuit);
-	
-	//		}
-	//		Random randomRank = new Random();
-	//		Array valuesRank = Enum.GetValues(typeof(CardRank));
-	//		for(int i = 0; i < 10; i++)
-	//		{
-	//			int indexRank = randomRank.Next(valuesRank.Length);
-	//			CardSuit valuerank = (CardSuit)valuesRank.GetValue(indexRank);
-	//		} 
-	//	}
+		public Card GenerateCard() 
+		{
+			Random random = new Random();
+			Array valuesSuit = Enum.GetValues(typeof(CardSuit));
+			Array valuesRank = Enum.GetValues(typeof(CardRank));
+			
+			int indexSuit = random.Next(valuesSuit.Length);
+			CardSuit tempSuit = (CardSuit)valuesSuit.GetValue(indexSuit);
+			
+			int indexRank = random.Next(valuesRank.Length);
+			CardRank tempRank = (CardRank)valuesRank.GetValue(indexRank);
+			
+			return new Card(tempSuit,tempRank);
+		}
 		
 		public void DealHoleCards()
 		{
-//			GenerateCard();
-			
-			Console.WriteLine($"Dealing The Hole Cards to player . . .");
-			Console.ReadLine();
+			Console.WriteLine("Dealing The Hole Cards to player . . .");
+			GenerateCard();
+			;
 		}
 
 		public void DealCommunityCards()
