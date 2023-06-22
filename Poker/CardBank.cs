@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using CardLib;
 using CardSuitLib;
 using CardRankLib;
-using GameController;
+using GameControllerLib;
 using IPlayerLib;
 using PlayerLib;
 
@@ -10,24 +10,23 @@ namespace CardBankLib
 {
 	public class CardBank
 	{
-		public List<Card> GenerateCard() 
-		{
-			Random randomSuit = new Random();
-			Array valuesSuit = Enum.GetValues(typeof(CardSuit));
-			for(int i = 0; i < 10; i++)
-			{
-				int indexSuit = randomsuit.Next(valuesSuit.Length);
-				CardSuit valuesuit = (CardSuit)valuesSuit.GetValue(index);
-			}
-			Random randomRank = new Random();
-			Array valuesRank = Enum.GetValues(typeof(CardRank));
-			for(int i = 0; i < 10; i++)
-			{
-				int indexRank = randomRank.Next(valuesRank.Length);
-				CardSuit valuerank = (CardSuit)valuesRank.GetValue(index);
-			}
-			return 
-		}
+//		public List<Card> GenerateCard() 
+//		{
+//			Random randomSuit = new Random();
+//			Array valuesSuit = Enum.GetValues(typeof(CardSuit));
+//			for(int i = 0; i < 10; i++)
+//			{
+//				int indexSuit = randomSuit.Next(valuesSuit.Length);
+//				CardSuit valuesuit = (CardSuit)valuesSuit.GetValue(index);
+//			}
+//			Random randomRank = new Random();
+//			Array valuesRank = Enum.GetValues(typeof(CardRank));
+//			for(int i = 0; i < 10; i++)
+//			{
+//				int indexRank = randomRank.Next(valuesRank.Length);
+//				CardSuit valuerank = (CardSuit)valuesRank.GetValue(index);
+//			} 
+//		}
 		
 //		public List<Card> GenerateDeck()
 //		{

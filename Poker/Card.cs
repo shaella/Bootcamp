@@ -24,7 +24,7 @@ namespace CardLib
 		}
 		public void SetCardName(string cardname)
 		{
-			_cardname = cardname
+			_cardname = cardname;
 		}
 		public void SetCardSuit(CardSuit suit)
 		{
