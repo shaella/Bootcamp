@@ -21,77 +21,25 @@ namespace GameControllerLib
 			_tableCards = new List<Card>();
 		}
 
-		public IPlayer GetPlayer(string name)
-		{
-			return _players.FirstOrDefault(player => player.GetName() == name);
-		}
-
-		public bool SetInputNumberOfPlayers(int numberOfPlayers)
-		{
-			if (numberOfPlayers >= 2 && numberOfPlayers <= 6)
-			{
-				return true;
-			}
-			return false;
-		}
-
-		public bool AddPlayer(string name)
-		{
-			if (string.IsNullOrEmpty(name) || _players.Any(player => player.GetName() == name))
-			{
-				return false;
-			}
-			_players.Add(new Player());
-			return true;
-		}
-
-		public bool SetPlayers(IList<IPlayer> players)
-		{
-			if (players.Count >=2 && players.Count <= 4)
-			{
-				_players = players;
-				return true;
-			}
-			return false;
-		}
-
-		public IList<IPlayer> GetPlayers()
-		{
-			return _players;
-		}
-
-		public int GetPlayersCount()
-		{
-			return _players.Count();
-		}
-
-		public bool SetPlayerName(IPlayer player, string name)
-		{
-			if (GetPlayersCount() != null && name.Length > 2)
-			{
-			player.SetName(name);
-			return true;
-			}
-		return false;
-		}
-
-		public string GetPlayerName(IPlayer player)
-		{
-			if (player != null)
-			{
-				return player.GetName();
-			}
-			return string.Empty;
-		}
-
-		public string GetPlayerID(IPlayer player)
-		{
-			if (player != null)
-			{
-				return player.GetID();
-			}
-			return string.Empty;
-		}
+		public void CreatePlayers()
+                {
+                        Console.Write("Please enter the number of players: (2-6)");
+                        int inputNumber = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine($"OK. There will be {inputNumber} players playing.");
+                        for (int i = 0; i < inputNumber; i++)
+                        {
+                                Console.WriteLine("Next player,");
+                                Console.Write("Enter your name: ");
+                                string names = Console.ReadLine();
+                                Console.Write("Enter your ID: ");
+                                string IDs = (Console.ReadLine());
+                                _players.Add(new Player(names, IDs));
+                        }
+//                        foreach (var player in _players)
+//                        {
+//                                Console.WriteLine(player);
+//                        }
+                }		
 	}
 		
 //		public int GatherChips()
