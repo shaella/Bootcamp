@@ -23,7 +23,7 @@ namespace GameControllerLib
 
 		public void CreatePlayers()
                 {
-                        Console.Write("Please enter the number of players: (2-6)");
+                        Console.Write("Please enter the number of players (2-6): ");
                         int inputNumber = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine($"OK. There will be {inputNumber} players playing.");
                         for (int i = 0; i < inputNumber; i++)
