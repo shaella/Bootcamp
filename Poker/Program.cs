@@ -16,7 +16,6 @@ namespace Program
 	{
 		public static void Main(string[] args)
 		{
-//			Display display = new Display();
 			GameController gamecontroller = new GameController();
 			
 //			IPlayer player1 = new Player();
@@ -55,44 +54,6 @@ namespace Program
 //			gamecontroller.GatherChips();
 //			Console.WriteLine($"The collected chips from all players is {gamecontroller.allchips}");
 //			Console.ReadLine();
-
-			int numberOfPlayer = gamecontroller.GetPlayersCount();
-			while (!gamecontroller.SetInputNumberOfPlayers(numberOfPlayer))
-			{
-			Console.Write("Enter the number of players (2-6): ");
-			string input = Console.ReadLine();
-			{
-				if (int.TryParse(input, out numberOfPlayer) && gamecontroller.SetInputNumberOfPlayers(numberOfPlayer) == true)
-				{
-					Console.Clear();
-					Console.WriteLine("Input number of players is successful");
-				}
-				else
-				{
-					Console.WriteLine("Invalid input. Please enter a valid number.");
-				}
-			}
-//			return numberOfPlayer;
-			}
-
-
-			for (int i = 1; i <= numberOfPlayer; i++)
-        		{
-            		while (true)
-            		{
-                		Console.Write($"Enter the Name of Player {i}: (at least 2 characters): ");
-                		string name = Console.ReadLine();
-                		if (name.Length >= 2)
-                		{
-                    		gamecontroller.AddPlayer(name);
-                    		break;
-                		}
-                		else
-                		{
-                   		 Console.WriteLine("Invalid input for player name. Try Again!");
-                		}
-			}
-			}
 
 			
 			CardBank dealer = new CardBank();
