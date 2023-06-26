@@ -28,15 +28,6 @@ namespace BettingRoundLib
                     Console.WriteLine(" ");
                     break;
             }
-            return bet;
-            bets = Convert.ToBoolean(bet);
-
-            if (bets)
-            {
-                Console.Write("Please enter the amount that you want to bet: ");
-                //GameController.allchips += Convert.ToInt32(Console.ReadLine());
-            }
-
             Console.ReadLine();
         }
 

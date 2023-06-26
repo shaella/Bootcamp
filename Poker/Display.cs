@@ -4,8 +4,7 @@ namespace DisplayLib
 	{
 		public Display()
 		{
-			Console.WriteLine(" -------- Welcome to POKER game. --------");
-			Console.WriteLine("There will be three players playing. \nPlease enter your name, ID, and initial chips.");
+			Console.WriteLine(" =+=+=+=+=+=+=+=+=+= Welcome to POKER game =+=+=+=+=+=+=+=+=+=");
 			Console.ReadLine();
 		}
 	}

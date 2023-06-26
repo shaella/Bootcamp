@@ -18,42 +18,47 @@ namespace PlayerLib
 		{
 			return _chips;
 		}
-		public bool SetChips(int chips)
+		public void SetChips(int chips)
 		{
-			if(chips > 0)
-			{
+			//if(chips > 0)
+			//{
 				_chips = chips;
-				return true;
-			}
-			else
-			{
-				return false;
-			}		
+			//	return true;
+			//}
+			//else
+			//{
+			//	return false;
+			//}		
 		}
-		public bool SetName(string name) 
+		public void SetName(string name) 
 		{
-			if(name.Length >= 1)
-			{
+			//if(name.Length >= 1)
+			//{
 				_name = name;
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			//	return true;
+			//}
+			//else
+			//{
+			//	return false;
+			//}
 		}
-		public bool SetID(string ID) 
+		public void SetID(string ID) 
 		{
-			if(ID.Length >= 1)
-			{
+			//if(ID.Length >= 1)
+			//{
 				_ID = ID;
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			//	return true;
+			//}
+			//else
+			//{
+			//	return false;
+			//}
 		}
+		//public Player(string names, string IDs)
+		//{
+		//	names = _name;
+		//	IDs = _ID;
+		//}
 	}
 }
 

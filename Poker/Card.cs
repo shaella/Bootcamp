@@ -7,13 +7,9 @@ namespace CardLib
 {
 	public class Card
 	{
-		private string _cardname;
 		private CardSuit _suit;
 		private CardRank _rank;
-		public string GetCardName()
-		{
-			return _cardname;
-		}
+
 		public CardSuit GetCardSuit() 
 		{
 			return _suit;
@@ -22,10 +18,6 @@ namespace CardLib
 		{
 			return _rank;
 		}
-		public void SetCardName(string cardname)
-		{
-			_cardname = cardname;
-		}
 		public void SetCardSuit(CardSuit suit)
 		{
 			_suit = suit;
@@ -33,6 +25,11 @@ namespace CardLib
 		public void SetCardRank(CardRank rank)
 		{
 			_rank = rank;
+		}
+		public Card(CardSuit tempSuit, CardRank tempRank)
+		{
+			tempSuit = _suit;
+			tempRank = _rank;
 		}
 	}
 }

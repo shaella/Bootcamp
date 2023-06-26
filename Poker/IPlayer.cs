@@ -3,10 +3,10 @@ namespace IPlayerLib
 	public interface IPlayer
 	{
 		string GetID();
-		bool SetID(string ID);
+		void SetID(string ID);
 		string GetName();
-		bool SetName(string name);
+		void SetName(string name);
 		int GetChips();
-		bool SetChips(int chips);
+		void SetChips(int chips);
 	}
 }
