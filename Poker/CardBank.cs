@@ -32,7 +32,7 @@ namespace CardBankLib
 			;
 		}
 
-		public void DealCommunityCards()
+		public void DealCommunit yCards()
 		{
 			Console.WriteLine($"Dealing The Flop to player . . .");
 			Console.ReadLine();
